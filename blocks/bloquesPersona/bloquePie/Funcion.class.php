@@ -1,5 +1,5 @@
 <?php
-namespace bloquesModelo\bloqueIndex;
+namespace bloquesModelo\bloquePie;
 
 if (! isset ( $GLOBALS ["autorizado"] )) {
     include ("../index.php");
@@ -45,7 +45,6 @@ class Funcion {
         
         $resultado = true;
         
-        
         // Aquí se coloca el código que procesará los diferentes formularios que pertenecen al bloque
         // aunque el código fuente puede ir directamente en este script, para facilitar el mantenimiento
         // se recomienda que aqui solo sea el punto de entrada para incluir otros scripts que estarán
@@ -56,19 +55,6 @@ class Funcion {
         if (isset ( $_REQUEST ['procesarAjax'] )) {
             $this->procesarAjax ();
         } else{
-
-             
-                switch ($_REQUEST['opcion']){
-                    
-        		case "ingresar":
-                           
-//        			
-        			break;
-                        case "accesoDenegado":
-                                
-        			
-        		break;    
-        	}
             
             $resultado = $this->procesarFormulario ();
         }

@@ -1,5 +1,5 @@
 <?php
-namespace bloquesModelo\bloqueIndex;
+namespace bloquesModelo\bloqueLogin;
 
 if (! isset ( $GLOBALS ["autorizado"] )) {
     include ("../index.php");
@@ -56,18 +56,15 @@ class Funcion {
         if (isset ( $_REQUEST ['procesarAjax'] )) {
             $this->procesarAjax ();
         } else{
-
-             
-                switch ($_REQUEST['opcion']){
-                    
-        		case "ingresar":
-                           
-//        			
-        			break;
-                        case "accesoDenegado":
-                                
+        	//var_dump($_REQUEST);
+        	//exit;
+        	switch($_REQUEST['opcion']){
+        		case "mostrar":
         			
-        		break;    
+        			exit;
+        			break;
+        		default:
+        			break;
         	}
             
             $resultado = $this->procesarFormulario ();

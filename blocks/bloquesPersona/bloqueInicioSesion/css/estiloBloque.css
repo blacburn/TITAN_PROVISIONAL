@@ -1,0 +1,48 @@
+             
+
+
+#Central{
+    width : 100%;
+    margin: 0 auto; 
+
+    top:  0px; 
+    left: 0px;
+}
+#cuadros{
+    position: absolute;
+    position: absolute;    
+    top:  200px;
+    left: 650px;
+    
+    padding: 2%;
+    width : 200px ;
+    height: 150px ;
+    background-color: #fff;
+    opacity: 0.6; 
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 0px solid #000000;
+
+
+
+}
+#ImagenCentral{
+    position: absolute;
+    background-image: url(../imagenes/12345.jpg);
+
+
+    width : 100%;
+    margin: 0 auto; 
+    height: 700px;
+    top:  80px; 
+    left: -20px;
+    bottom: 100px
+
+
+
+    background-image: url('http://orig05.deviantart.net/652b/f/2011/308/f/4/page_background_by_30ml-d4f1qpa.jpg'); 
+
+
+
+}

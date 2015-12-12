@@ -1,0 +1,26 @@
+#marco{
+    
+		width : 400px ;
+                height: 200px ;
+                position: absolute;
+                top:  420px; 
+                left: 50px;
+                bottom: 500px;
+                right: 1000px;
+               	font-size: 100%;
+		color: #000000;
+		font-weight: bold;
+                 
+}               
+
+
+
+#ImagenCentral{
+    background-image: url('http://orig05.deviantart.net/652b/f/2011/308/f/4/page_background_by_30ml-d4f1qpa.jpg'); 
+
+                top:  130px; 
+		width : 1250px ;
+                height: 580px ;
+                
+      
+}
